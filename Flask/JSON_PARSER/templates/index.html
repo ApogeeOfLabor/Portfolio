@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+{{ super() }}
+    <section>
+        <form action="/index" method="post" class="form">
+            <div class="blocks">
+                <label for="url" class="message">Введите адрес файла: </label>
+                <input id="url" type="text" name="url" value="" placeholder="URL" class="place"/>
+                <input type="submit" value="Отправить" class="button">
+            </div>
+        </form>
+        <table class="table">
+            <tr class="table__header">
+                {% for item in table_header %}
+                    <th class="table__cell">{{ item }}</th>
+                {% endfor %}
+            </tr>
+            {% for dict_item in response %}
+                <tr class="table__row">
+                    {% for value in table_data %}
+                        {% if dict_item[value] %}
+                            <td class="table__cell">{{ dict_item[value] }}</td>
+                        {% else %}
+                            <td class="table__cell">Значение отсутствует</td>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    </section>
+{% endblock %}

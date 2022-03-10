@@ -19,3 +19,4 @@ if __name__ == '__main__':
     for index, value in enumerate(odd_numbers_list):
         odd_numbers_list[index] = value + 17
     print(f"result: {get_sum_numbers_multiples_of_seven(odd_numbers_list)}, id: {id(odd_numbers_list)}")
+    ''.split()

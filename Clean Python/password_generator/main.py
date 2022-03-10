@@ -3,6 +3,9 @@ from source import data
 from source import pass_levels
 import eel
 
+eel.init('./assets/')
+eel.start("index.html", size=(300, 450))
+
 
 def start():
     try:
@@ -20,4 +23,5 @@ def start():
 
 
 if __name__ == '__main__':
-    print(f'Your password: {start()}')
+    # print(f'Your password: {start()}')
+    pass
