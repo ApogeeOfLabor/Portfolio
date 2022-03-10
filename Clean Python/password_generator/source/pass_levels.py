@@ -1,5 +1,5 @@
-import gen_list_chars
-import errors
+from . import gen_list_chars
+from . import errors
 
 
 def get_len(min_char, max_char, func):
