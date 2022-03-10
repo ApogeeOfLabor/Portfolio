@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div class="container">
+            <div class="info">
+                <fieldset>
+                    <legend>Общая информация</legend>
+                    <div class="info">
+                        <label for="surname">Фамилия</label>
+                        <input id="surname" type="text" name="surname" placeholder="Иванов">
+                    </div>
+                    <div class="info">
+                        <label for="name">Имя</label>
+                        <input id="name" type="text" name="name" placeholder="Иван">
+                    </div>
+                    <div class="info">
+                        <label for="patronymic">Отчество</label>
+                        <input id="patronymic" type="text" name="patronymic" placeholder="Иванович">
+                    </div>
+                    <div>
+                        <label for="">email</label>
+                        <input id="email" type="email" name="email" placeholder="mail@mail.ru">
+                    </div>
+                </fieldset>
+            </div>
+            <div class="info">
+                <fieldset>
+                    <legend>Пол</legend>
+                    <div class="sex">
+                        <input id="male" type="radio" name="sex" value="male">
+                        <label for="male">М</label>
+                        <input id="female" type="radio" name="sex" value="female">
+                        <label for="female">Ж</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="info">
+                <fieldset>
+                    <legend>Хобби</legend>
+                    <div class="sex">
+                        <input id="painting" type="checkbox" name="hobby" value="painting">
+                        <label for="painting">Рисование</label>
+                        <input id="reading" type="checkbox" name="hobby" value="reading">
+                        <label for="reading">Чтение</label>
+                        <input id="knitting" type="checkbox" name="hobby" value="knitting">
+                        <label for="knitting">Вязание</label>
+                        <input id="cooking" type="checkbox" name="hobby" value="cooking">
+                        <label for="cooking">Кулинария</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

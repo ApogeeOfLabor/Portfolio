@@ -1,0 +1,22 @@
+.container{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.info{
+    margin-bottom: 20px;
+    
+}
+
+label{
+    width: 130px;
+    display: inline-block;
+}
+
+.sex{
+    margin-bottom: 5px;
+}
+
+.sex label{
+    width: 100px;
+}

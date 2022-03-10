@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+body{
+    font-family: Roboto;
+    background: #E6D5B9;
+}
+.header{
+    height: 158px;
+    background-color: #4E3835;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E6D5B9;
+    border-radius: 10px;
+    padding: 16px 25px;
+}
+.container {
+    padding: 50px 50px;    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.left-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img-1 {
+    width: 280px;
+    height: 280px;
+}
+.img-2 {
+    width: 280px;
+    height: 186;
+}
+.img-3 {
+    width: 280px;
+    height: 420px;
+}
+.block-1{
+    display: flex;
+    flex-wrap: nowrap; 
+    padding: 29px 43px;
+    margin: 15px 89px;
+    border: 3px solid #4E3835;
+    border-radius: 10px;
+}
+.block-2{
+    display:flex;
+    flex-wrap: nowrap;
+    padding: 29px 43px;
+    border: 3px solid #4E3835;
+    border-radius: 10px;
+    margin: 15px 89px;
+}
+.block-3{
+    margin: 0 44px;
+    padding: 29px 43px;
+    border: 3px solid #4E3835;
+    border-radius: 10px;
+    
+}
+.margin-top{
+    margin-top: 39px;
+    
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.margin-left{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.margin-right{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.block-title{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px;
+    text-decoration: none;
+    color: #4E3835;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 auto 29px;
+}
+
+.block-title:hover{
+    text-decoration: underline;
+}
+
+.block-description{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4E3835;
+    vertical-align: top;
+}
+
+
+
+

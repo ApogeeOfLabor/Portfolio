@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Roboto, serif;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 80%;
+	background: rgb(143, 143, 143);
+	height: 50px;
+	display: flex;
+}
+
+.nav{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	color: aliceblue;
+	text-transform: uppercase;
+}
+
+li{
+	margin-left: 35px;
+}
+
+.logo{
+	font: 600;
+	font-size: 25px;
+	color: aliceblue;
+}
