@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <a class="logo" href="#">
+          <img class="header__img" src="images/logo.svg" alt="logo">
+        </a>
+        <div class="header__message">
+          <p class="header__message-item">
+            Генератор паролей
+          </p>
+        </div>
+        <div class="menu">menu</div>
+      </nav>
+
+      <div class="header__content">
+        <div class="header__content_text">
+          <p class="header__content_msg">
+            Здравствуйте, Вас приветствует
+          </p>
+          <p class="header__content_msg">
+            "Генератор паролей"
+          </p>
+        </div>
+        <div class="header__buttons">
+          блок с появляющимися кнопками
+        </div>
+      </div>
+
+      <div class="header__result">
+        <p class="header__result-msg"></p>
+      </div>
+    </div>
+  </header>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__coperight">
+        @coperight 2022
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

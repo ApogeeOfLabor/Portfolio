@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #779BA0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.message{
+    margin: 50px auto;
+    
+    min-height: 150px;
+    background-color: #bdd9dd;
+    border: 1px solid #81b0b8;
+    border-radius: 5px;
+}
+
+.list_level_pass{
+    margin: 10px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line{
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 40%;
+}
+
+.inner_list{
+    margin: 40px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result{
+    margin: 120px 0 0;
+    width: 100%;
+    min-height: 30px;
+    background-color: #83a9af;
+}

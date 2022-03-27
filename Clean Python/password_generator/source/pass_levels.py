@@ -3,6 +3,7 @@ from . import errors
 
 
 def get_len(min_char, max_char, func):
+    """ вопрос о длине пароля """
     try:
         return int(input(f'Set the password length ({min_char}-{max_char} characters): '))
     except ValueError:
@@ -10,7 +11,7 @@ def get_len(min_char, max_char, func):
 
 
 def simple():
-    min_char, max_char = 4, 7
+    min_char, max_char = 4, 7  # длина пароля
     try:
         len_pass = get_len(min_char, max_char, simple)
         if 4 <= len_pass < 6:
