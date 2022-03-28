@@ -3,13 +3,19 @@ from source import data
 from source import pass_levels
 import eel
 
-eel.init('./assets/')
-eel.start("index.html", size=(300, 450))
+eel.init("assets")
+eel.start("index.html", size=(600, 400))
 
 
+@eel.expose
+def start_hello():
+    return data.start_hello
+
+
+@eel.expose
 def start():
     try:
-        entered_difficulty_level = input(data.start_hello).lower()
+        entered_difficulty_level = input().lower()
         if pass_levels.simple.__name__ == errors.check_entered_data(entered_difficulty_level):
             return pass_levels.simple()
         if pass_levels.medium.__name__ == errors.check_entered_data(entered_difficulty_level):
@@ -22,6 +28,5 @@ def start():
         return errors.value_error(start)
 
 
-if __name__ == '__main__':
-    # print(f'Your password: {start()}')
-    pass
+# if __name__ == '__main__':
+#     print(f'Your password: {start()}')
