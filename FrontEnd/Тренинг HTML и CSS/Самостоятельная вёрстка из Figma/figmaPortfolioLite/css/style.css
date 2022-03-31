@@ -1,0 +1,49 @@
+
+
+.container{
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 88px;
+
+  border-bottom: 2px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.header__link{
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #828282;
+
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.header__link:first-child{
+  color: #070707;
+}
+
+.header__content-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-height: 188px;
+
+}
+.header__content-title{
+  font-family: 'Gilroy-Bold';
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+
+  text-transform: capitalize;
+  max-width: 128px;
+}

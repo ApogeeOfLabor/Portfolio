@@ -4,5 +4,7 @@
 }
 
 body{
-  color: blue;
+  background-image: url(../images/ep_naturalwhite.png);
+  font-family: 'Cuprum', sans-serif;
+  margin: 200px;
 }
