@@ -1,8 +1,17 @@
+body{
 
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
 
 .container{
   max-width: 940px;
   margin: 0 auto;
+}
+
+.header__content{
+  padding-bottom: 103px;
 }
 
 .header__nav{
@@ -18,32 +27,195 @@
 
 .header__link{
   font-family: 'Gilroy-Bold';
-  font-size: 18px;
-  line-height: 22px;
-  
   color: #828282;
 
   text-transform: capitalize;
   text-decoration: none;
 }
-.header__link:first-child{
-  color: #070707;
-}
 
 .header__content-inner{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
 
   max-height: 188px;
+  margin: 39px 0;
+}
+.header__content-titletext{
+
+  font-family: 'Gilroy-Bold';
+  font-size: 47px;
+  line-height: 40px;
+  
+  text-transform: capitalize;
+}
+
+
+.header__content-lang{
+  height: inherit;
+
+  font-family: 'Gilroy-Bold';
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  
+  transform: rotate(-90deg);
+  position: relative;
 
 }
-.header__content-title{
-  font-family: 'Gilroy-Bold';
-  font-size: 47.3392px;
-  line-height: 59px;
-  color: #070707;
 
+.header__content-langbox{
+  position: absolute;
+
+  display: flex;
+  top: -17px;
+}
+
+.header__content-lang--ru{
+  color: #828282;
+}
+
+.header__content-lang--eng{
+  margin-left: 10px;
+  position: relative;
+}
+
+
+.header__content-text{
+  font-family: 'Gilroy-Medium';
+  
+}
+
+.header__img{
+  width: 100%;
+  max-width: 940px;
+}
+
+/* ABOUT */
+
+.about{
+  width: 100%;
+  background: #F6F6F6;
+  padding: 107px 0;
+}
+
+.title{
+  font-family: 'Gilroy-Bold';
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
   text-transform: capitalize;
-  max-width: 128px;
+}
+
+.about__textbox{
+  max-width: 485px;
+  margin: 0 auto;
+  margin-top: 17px;
+
+}
+
+.about__text{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* skills__item */
+
+.skills{
+  padding: 91px 0 110px 0;
+}
+
+.skills__text{
+  margin: 69px 0 83px 0;
+  text-align: center;
+}
+.skills__items{
+  display: flex;
+  justify-content: space-around;
+}
+.skills__item{
+  text-align: center;
+  width: 170px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.skills__name{
+  padding: 24px 40px;
+}
+.skills__ratio{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* portfolio */
+
+.portfolio{
+  width: 100%;
+  background: #F6F6F6;
+  padding: 112px 0 49px 0;
+}
+
+.portfolio__item{
+  padding: 47px 0 52px 0;
+}
+.portfolio__text{
+  font-family: 'Gilroy-Medium';
+  margin-top: 44px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+/* contacts */
+
+.contacts{
+  padding: 114px 0 123px 0;
+  margin: 0 auto;
+}
+
+.contacts__inner{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.contacts__text{
+  text-align: center;
+  font-family: 'Gilroy-Medium';
+
+  padding: 20px 0 29px 0;
+}
+
+
+.contacts__social-icons{
+  margin: 86px 0 45px 0;
+}
+
+.contacts__button{
+  width: 180px;
+  height: 42px;
+
+  font-weight: 600;
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+
+  border-radius: 60px;
+  background: #070707;
+
+}
+
+.contacts__social-icons{
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__social-text{
+  text-align: center;
 }
