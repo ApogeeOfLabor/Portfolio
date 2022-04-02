@@ -2,7 +2,7 @@ import random
 
 up_chars = [chr(item) for item in range(ord('A'), ord('Z') + 1)]
 low_chars = [chr(item) for item in range(ord('a'), ord('z') + 1)]
-other_symbols = '! # $ % & " * + , - . / : ; < = > ? @ ^ _` ~ '.split()
+other_symbols = '! % & " * + , - . : ; < = > ? @ ^ _ ` ~ '.split()
 num_chars = list(map(str, range(0, 10)))
 
 
