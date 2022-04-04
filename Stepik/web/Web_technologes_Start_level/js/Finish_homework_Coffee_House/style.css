@@ -1,31 +1,146 @@
-.header {}
+body{
+  font-family: sans-serif;
+}
 
-.container {}
+.header {
+  box-sizing: border-box;
+  max-height: 100vh;
+}
 
-.header__title {}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
 
-.header__content {}
+.header__title {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 15px;
+}
 
-.header__userdata {}
+.header__content {
+  background-color: #d4cbcb;
+  padding: 50px;
+}
 
-.firstname {}
+.header__userdata {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 
-.lastname {}
+  width: 100%;
+  padding: 20px 0;
+}
 
-.header__menu {}
+.firstname,
+.lastname {
+  padding: 10px;
 
-.inner__menu {}
+  height: 2.1rem;
+  width: 22rem  ;
 
-.menu__items {}
+  font-size: 1.4rem;
+  outline: none;
+}
 
-.menu__item {}
+.header__menu {
+  margin-top: 40px;
+  
+  display: flex;
+  justify-content: space-evenly;
+}
 
-.menu__count {}
+.inner__menu {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
 
-.result {}
+  min-width: 200px;
 
-.result__title {}
+}
 
-.result__text {}
+.menu__items {
+  display: flex;
+  align-items: center;
 
-.header__submit {}
+
+  font-size: 1.5rem;
+  text-transform: capitalize;
+
+  padding: 10px 0;
+}
+
+.menu__item {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+}
+
+.menu__item-text{
+  color: #3a3232;
+  font-size: 1.5rem;
+  min-width: 250px;
+  padding: 0 20px 0 15px;
+}
+
+.menu__count {
+  width: 3rem;
+  height: 1.7rem;
+
+  font-size: 1.3rem;
+  color: #3a3232;
+  text-align: center;
+
+  background-color: #ffffff;
+  border: 0.12rem solid rgb(133, 124, 124);
+  border-radius: 3px;
+
+  outline: none;  
+}
+
+.resultbox{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: end;
+  align-items: center;
+
+  padding: 50px 0 0 0;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+
+  min-width: 20rem;
+
+  border-bottom: 0.14rem solid #3a3232;
+  margin-bottom: 20px;
+}
+
+.result__title {
+  font-size: 2.3rem;
+  text-transform: capitalize;
+
+  color: #3a3232;
+}
+
+.result__text {
+  width: 10rem;
+  font-size: 2.3rem;
+  color: #2a2626;
+}
+
+
+.header__submit {
+  padding: 12px 15px;
+  margin: 13px;
+
+  border: 0.12rem solid rgb(133, 124, 124);
+  border-radius: 4px;
+
+  color: #4a4140;
+  font-size: 1.5rem;
+
+  cursor: pointer;
+}
