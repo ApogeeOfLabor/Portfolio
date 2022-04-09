@@ -1,0 +1,74 @@
+*{
+    color: #313131;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 120px;
+}
+.logo {
+    box-sizing: border-box;
+    max-width: 4.5rem;
+    max-height: 4.5rem;
+}
+.header__list {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header__listitems {
+    text-transform: capitalize;
+    margin-right: 36px;
+}
+.header__link {
+}
+.header__button {
+}
+.header__contact {
+    display: block;
+
+}
+.phone {
+    display: block;
+    font-size: 1.8rem;
+    padding-bottom: 0.6rem;
+}
+.social__list {
+    display: flex;
+    justify-content: end;
+}
+.contact__list-item {
+}
+.social__link {
+}
+
+.social__img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.header__slider {
+}
+.promo {
+}
+.interiorDecorating {
+}
+.info {
+}
+.footer {
+}
