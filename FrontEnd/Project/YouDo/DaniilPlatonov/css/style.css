@@ -1,5 +1,6 @@
 *{
     color: #313131;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -14,6 +15,9 @@
 
 
 }
+
+/* NAV */
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -29,7 +33,7 @@
 }
 .header__list {
     display: flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: inherit;
 }
 .header__listitems {
     text-transform: capitalize;
@@ -38,6 +42,12 @@
 .header__link {
 }
 .header__button {
+    font-size: 1.4rem;
+    font-family: inherit;
+
+    background: none;
+    border: 1px solid #000;
+    padding: 4px 10px;
 }
 .header__contact {
     display: block;
@@ -46,14 +56,16 @@
 .phone {
     display: block;
     font-size: 1.8rem;
-    padding-bottom: 0.6rem;
+    padding-bottom: 1.2rem;
 }
 .social__list {
     display: flex;
     justify-content: end;
 }
-.contact__list-item {
+.social__list-item {
+    margin-left: 8px;
 }
+
 .social__link {
 }
 
@@ -62,13 +74,43 @@
     height: 1.5rem;
 }
 
+/* SLIDER */
+
 .header__slider {
+    height: 500px;
+    background-color: #c4c4c4;
 }
+
+/* PROMO */
+
 .promo {
+    height: 350px;
+    background-color: #8d8a8a;
 }
+
+.promo__items {
+
+    display: flex;
+
+}
+.promo__item {
+}
+.promo__title {
+}
+.promo__content {
+}
+
+/* INTERIOR DECORATING */
+
 .interiorDecorating {
 }
+
+/* INFO */
+
 .info {
 }
+
+/* FOOTER */
+
 .footer {
 }
