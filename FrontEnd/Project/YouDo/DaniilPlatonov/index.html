@@ -1,16 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/freelancer_reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./fonts/GOTHIC.TTF">
-    <link rel="stylesheet" href="./fonts/GOTHICB.TTF">
-    <link rel="stylesheet" href="./fonts/GOTHICBI.TTF">
-    <link rel="stylesheet" href="./fonts/GOTHICI.TTF">
-    <title>Document</title>
+    <title>ART Photo</title>
 </head>
 <body>
     
@@ -18,13 +14,13 @@
         <div class="container">
 
             <nav class="nav">
-                <img class="logo" src="./img/logo.png" alt="logo">
+                <a class="header__link" href="index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
 
                 <ul class="header__list">
-                    <li class="header__listitems"><a class="header__link" href="#">главная</a></li>
+                    <li class="header__listitems"><a class="header__link" href="index.html">главная</a></li>
                     <li class="header__listitems"><a class="header__link" href="#">залы</a></li>
                     <li class="header__listitems"><a class="header__link" href="#">услуги</a></li>
-                    <li class="header__listitems"><a class="header__link" href="#">правила</a></li>
+                    <li class="header__listitems"><a class="header__link" href="regulation.html">правила</a></li>
                     <li class="header__listitems"><a class="header__link" href="#">фотограф</a></li>
                     <li class="header__listitems"><a class="header__link" href="#">контакты</a></li>
                 </ul>
@@ -36,7 +32,7 @@
                     <ul class="social__list">
                         <li class="social__list-item">
                             <a class="social__link" href="#">
-                                <img class="social__img" src="./img/telegram.png" alt="telegram">
+                                <img class="social__img social__img--resize" src="./img/telegram.png" alt="telegram">
                             </a>
                         </li>
                         <li class="social__list-item">
@@ -54,7 +50,28 @@
             </nav>
 
             <div class="header__slider">
-                
+              <div class="slider middle">
+                <div class="slides">
+                  <input type="radio" name="rb" id="r1" checked>
+                  <input type="radio" name="rb" id="r2">
+                  <input type="radio" name="rb" id="r3">
+                  <input type="radio" name="rb" id="r4">
+                  <input type="radio" name="rb" id="r5">
+              
+                  <div class="slide s1"><img class="slider__img" src="./img/1.jpg" alt=""></div>
+                  <div class="slide"><img class="slider__img" src="./img/2.jpg" alt=""></div>
+                  <div class="slide"><img class="slider__img" src="./img/3.jpg" alt=""></div>
+                  <div class="slide"><img class="slider__img" src="./img/4.jpg" alt=""></div>
+                  <div class="slide"><img class="slider__img" src="./img/5.jpg" alt=""></div>
+                </div>
+                <div class="navigation">
+                  <label for="r1" class="bar"></label>
+                  <label for="r2" class="bar"></label>
+                  <label for="r3" class="bar"></label>
+                  <label for="r4" class="bar"></label>
+                  <label for="r5" class="bar"></label>
+                </div>
+              </div>
             </div>
 
         </div>
@@ -69,15 +86,15 @@
                 </div>
                 <div class="promo__item">
                     <div class="promo__title">3</div>
-                    <div class="promo__content">3 локации с удобным расположением</div>
+                    <div class="promo__content">3 локации <br> с удобным расположением</div>
                 </div>
                 <div class="promo__item">
                     <div class="promo__title">650</div>
                     <div class="promo__content">Более 650м<sup>2</sup> общая площадь залов</div>
                 </div>
                 <div class="promo__item">
-                    <img class="promo__title" src="./img/sun.png" alt="SUN">
-                    <div class="promo__content">естественный свет</div>
+                    <img class="promo__title resize" src="./img/sun.png" alt="SUN">
+                    <div class="promo__content">Естественный свет</div>
                 </div>
                 <div class="promo__item">
                     <div class="promo__title">PRO</div>
@@ -89,19 +106,120 @@
 
     <section class="interiorDecorating">
         <div class="container">
-
+          <div class="interiorDecorating__title">Фотозалы</div>
+          <div class="interiorDecorating__inner">
+            <div class="interiorDecorating__rooms">
+              <div class="interiorDecorating__item">
+                <img class="interiorDecorating__item-bg" src="./img/5.jpg" alt="Зал 1">
+                <div class="interiorDecorating__content">
+                  <div class="interiorDecorating__content-name">Зал 1</div>
+                  <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
+                </div>
+              </div>
+              <div class="interiorDecorating__item">
+                <img class="interiorDecorating__item-bg" src="./img/6.jpg" alt="Зал 2">
+                <div class="interiorDecorating__content">
+                  <div class="interiorDecorating__content-name">Зал 2</div>
+                  <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
+                </div>
+              </div>
+              <div class="interiorDecorating__item">
+                <img class="interiorDecorating__item-bg" src="./img/1.jpg" alt="Зал 3">
+                <div class="interiorDecorating__content">
+                  <div class="interiorDecorating__content-name">Зал 3</div>
+                  <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
+                </div>
+              </div>
+            </div>
+            <div class="interiorDecorating__rooms">
+              <div class="interiorDecorating__item">
+                <img class="interiorDecorating__item-bg" src="./img/2.jpg" alt="Зал 4">
+                <div class="interiorDecorating__content">
+                  <div class="interiorDecorating__content-name">Зал 4</div>
+                  <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
+                </div>
+              </div>
+              <div class="interiorDecorating__item">
+                <img class="interiorDecorating__item-bg" src="./img/3.jpg" alt="Зал 5">
+                <div class="interiorDecorating__content">
+                  <div class="interiorDecorating__content-name">Зал 5</div>
+                  <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
+                </div>
+              </div>
+              <div class="interiorDecorating__item">
+                <img class="interiorDecorating__item-bg" src="./img/4.jpg" alt="Зал 6">
+                <div class="interiorDecorating__content">
+                  <div class="interiorDecorating__content-name">Зал 6</div>
+                  <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
 
     <section class="info">
         <div class="container">
-
+          <div class="info__title">"art photo"</div>
+          <div class="info__content">
+            <p class="info__text">"ART Photo" - это профессиональная фотостудия и фотографы, которых вы ищете. Все необходимое для проведения профессиональных фотосессий и видеосъемки вы найдете у нас! Вас ждут просторные залы с дневным светом, современное съемочное и осветительное оборудование, оригинальные декорации, разнообразный реквизит и профессиональный опыт наших сотрудников.</p>
+            <p class="info__text">Помимо фотосъемок залы нашей студии прекрасно подходят для проведения различного рода мероприятий, ивентов и событий. В зонах ресепшн расположены девять гримерных столиков, имеется лаунж-зона с диванами и бесплатными чаем. По желанию мы можем приготовить для Вас зерновой кофе в кофе-машине за дополнительную плату. Если Вам неудобно приносить с собой сменную обувь, мы готовы предоставить Вам одноразовые тапочки также за дополнительную плату или бахилы. В помещениях студии действует бесплатный Wi-Fi. Для Вашего удобства у нас имеется терминалы для оплаты картой и собственные туалеты.</p>
+          </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
 
+          <div class="footer__inner">
+            <img class="logo res" src="./img/logo.png" alt="logo">
+
+            <div class="footer__content">
+              <p class="footer_items">
+                <a href="index.html" class="footer__link">Главная</a>
+                <a href="#" class="footer__link">Залы</a>
+              </p>
+              <p class="footer_items">
+                <a href="#" class="footer__link">Услуги</a>
+                <a href="#" class="footer__link">Фотограф</a>
+              </p>
+              <p class="footer_items">
+                <a href="regulation.html" class="footer__link">Правила</a>
+                <a href="#" class="footer__link">Контакты</a>
+              </p>
+              <p class="footer_items">
+                <a href="#" class="footer__link">Адрес: <br> ул. Академика Ягеля д.8</a>
+                <a href="#" class="footer__link">Метро: <br> Улица Академика Ягеля</a>
+              </p>
+
+              <div class="footer_items">
+                <a class="footer__link phone--res" href="tel:+79459933399">Телефон: <br> +7(945)993-33-99</a>
+                <div class="footer_inner-item footer__link">
+                  <a href="#" class="footer__link--mod">Социальные сети: </a>
+                  <ul class="social__list--mod">
+                    <li class="social__list-item--mod">
+                      <a class="social__link" href="#">
+                        <img class="social__img social__img--resize" src="./img/telegram.png" alt="telegram">
+                      </a>
+                    </li>
+                    <li class="social__list-item--mod">
+                      <a class="social__link" href="#">
+                        <img class="social__img" src="./img/instagram.png" alt="instagram">
+                      </a>
+                    </li>
+                    <li class="social__list-item--mod">
+                      <a class="social__link" href="#">
+                        <img class="social__img" src="./img/vk.png" alt="vk">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="yandex__wighet">YANDEX Wighet</div>
+
+          </div>
         </div>
     </footer>
 
