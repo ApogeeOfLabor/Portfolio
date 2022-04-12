@@ -287,6 +287,11 @@ input[name="rb"] {
   padding: 10px;
 }
 
+.link__box{
+  text-align: center;
+  padding: 35px 0;
+}
+
 /* END HEADER */
 
 /* PROMO */
@@ -362,7 +367,7 @@ input[name="rb"] {
 }
 
 .interiorDecorating__item{
-  width: 29vw; 
+  width: 28.6vw; 
 
 }
 
