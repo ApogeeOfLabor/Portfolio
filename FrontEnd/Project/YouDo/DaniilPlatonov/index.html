@@ -25,7 +25,7 @@
                     <li class="header__listitems"><a class="header__link" href="#">контакты</a></li>
                 </ul>
 
-                <button class="header__button">Заказать звонок</button>
+                <a class="header__button" href="#popup">Заказать звонок</a>
 
                 <div class="header__contact">
                     <a class="phone" href="tel:+79459933399">+7(945)993-33-99</a>
@@ -76,6 +76,20 @@
 
         </div>
     </header>
+
+    <div id="popup" class="popup">
+      <a href="#" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#" class="popup__close"></a>
+          <div class="popup__title">Обратный звонок</div>
+          <form action="post" class="popup__form">
+            <input class="popup__input" type="text" placeholder="Введите имя: ">
+            <input class="popup__input" type="number" placeholder="+7 (977) 777 - 77 - 77">
+          </form>
+        </div>
+      </div>
+    </div>
 
     <section class="promo">
         <div class="container">
