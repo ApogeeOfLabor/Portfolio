@@ -96,8 +96,7 @@
 .header__slider {
     position: relative;
     height: 400px;
-    margin: 0 0 100px 0;
-
+    margin: 20px 0 120px 0;
 }
 
 .slider {
@@ -287,6 +286,42 @@ input[name="rb"] {
   padding: 10px;
 }
 
+.popup__button-box{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  height: 1rem;
+}
+
+.popup__button-link{
+  margin: 0px 160px;
+  padding: 10px 25px;
+
+  background-color: #ededed;
+  border: 3px solid #b7b7b7;
+  border-radius: 3px;
+  color: #535252;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.popup__button-link:hover {
+  background-color: #969696;
+  border: 3px solid #969696;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.popup__push{
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: inherit;
+}
+
 .link__box{
   text-align: center;
   padding: 35px 0;
@@ -362,13 +397,14 @@ input[name="rb"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  margin-bottom: 1rem;
 }
 
 .interiorDecorating__item{
-  width: 28.6vw; 
+  width: 33%;
+  margin: 5px;
+  border-radius: 6px;
 
+  overflow: hidden;
 }
 
 .interiorDecorating__item-bg{

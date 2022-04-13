@@ -1,0 +1,4 @@
+.breadcrumb__list-item:nth-child(2)::after {
+  content: ">";
+  margin-right: 1.1rem;
+}

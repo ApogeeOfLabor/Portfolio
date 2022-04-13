@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/freelancer_reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/rooms.css">
     <title>ART Photo</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
 
                 <ul class="header__list">
                     <li class="header__listitems"><a class="header__link" href="index.html">главная</a></li>
-                    <li class="header__listitems"><a class="header__link" href="#">залы</a></li>
+                    <li class="header__listitems"><a class="header__link" href="rooms.html">залы</a></li>
                     <li class="header__listitems"><a class="header__link" href="#">услуги</a></li>
                     <li class="header__listitems"><a class="header__link" href="regulation.html">правила</a></li>
                     <li class="header__listitems"><a class="header__link" href="#">фотограф</a></li>
@@ -87,6 +88,21 @@
             <input class="popup__input" type="text" placeholder="Введите имя: ">
             <input class="popup__input" type="number" placeholder="+7 (977) 777 - 77 - 77">
           </form>
+          <div class="popup__button-box">
+            <div class="popup__button-link">
+              <a class="popup__push" href="#popup-push">оптравить</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-push" class="popup">
+      <a href="#" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content popup__content--mod">
+          <a href="#popup-end" class="popup__close"></a>
+          <div class="popup__title popup__title--mod">Заявка принята! <br><br>Спасибо за обращение.</div>
         </div>
       </div>
     </div>
@@ -123,50 +139,50 @@
           <div class="interiorDecorating__title">Фотозалы</div>
           <div class="interiorDecorating__inner">
             <div class="interiorDecorating__rooms">
-              <div class="interiorDecorating__item">
+              <a class="interiorDecorating__item" href="rooms1.html">
                 <img class="interiorDecorating__item-bg" src="./img/5.jpg" alt="Зал 1">
                 <div class="interiorDecorating__content">
                   <div class="interiorDecorating__content-name">Зал 1</div>
                   <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
                 </div>
-              </div>
-              <div class="interiorDecorating__item">
+              </a>
+              <a class="interiorDecorating__item" href="#">
                 <img class="interiorDecorating__item-bg" src="./img/6.jpg" alt="Зал 2">
                 <div class="interiorDecorating__content">
                   <div class="interiorDecorating__content-name">Зал 2</div>
                   <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
                 </div>
-              </div>
-              <div class="interiorDecorating__item">
+              </a>
+              <a class="interiorDecorating__item" href="#">
                 <img class="interiorDecorating__item-bg" src="./img/1.jpg" alt="Зал 3">
                 <div class="interiorDecorating__content">
                   <div class="interiorDecorating__content-name">Зал 3</div>
                   <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="interiorDecorating__rooms">
-              <div class="interiorDecorating__item">
+              <a class="interiorDecorating__item" href="#">
                 <img class="interiorDecorating__item-bg" src="./img/2.jpg" alt="Зал 4">
                 <div class="interiorDecorating__content">
                   <div class="interiorDecorating__content-name">Зал 4</div>
                   <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
                 </div>
-              </div>
-              <div class="interiorDecorating__item">
+              </a>
+              <a class="interiorDecorating__item" href="#">
                 <img class="interiorDecorating__item-bg" src="./img/3.jpg" alt="Зал 5">
                 <div class="interiorDecorating__content">
                   <div class="interiorDecorating__content-name">Зал 5</div>
                   <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
                 </div>
-              </div>
-              <div class="interiorDecorating__item">
+              </a>
+              <a class="interiorDecorating__item" href="#">
                 <img class="interiorDecorating__item-bg" src="./img/4.jpg" alt="Зал 6">
                 <div class="interiorDecorating__content">
                   <div class="interiorDecorating__content-name">Зал 6</div>
                   <div class="interiorDecorating__content-price">1 800 руб./ ч.</div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -191,7 +207,7 @@
             <div class="footer__content">
               <p class="footer_items">
                 <a href="index.html" class="footer__link">Главная</a>
-                <a href="#" class="footer__link">Залы</a>
+                <a href="rooms.html" class="footer__link">Залы</a>
               </p>
               <p class="footer_items">
                 <a href="#" class="footer__link">Услуги</a>
