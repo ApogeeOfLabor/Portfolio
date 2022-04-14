@@ -107,11 +107,51 @@
           </div>
 
           <div class="link__box">
-            <a href="#" class="button__link">Забронировать зал</a>
+            <a href="#booking" class="button__link">Забронировать зал</a>
           </div>
 
         </div>
     </section>
+
+    <!-- Попап форма бронирования -- start  -->
+
+    <div id="booking" class="popup">
+      <a href="#" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content popup__content--mod">
+          <a href="#popup-end" class="popup__close"></a>
+          <div class="popup__title">Обратный звонок</div>
+          <form action="post" class="popup__form">
+            <input class="popup__input" type="date" placeholder="Дата: *">
+            <input class="popup__input" type="time" placeholder="Время: *">
+            <input class="popup__input" type="number" placeholder="Количество участников: *">
+            <input class="popup__input" type="text" placeholder="Цель бронирования: *">
+            <input class="popup__input" type="text" placeholder="Имя: *">
+            <input class="popup__input" type="text" placeholder="Фамилия: *">
+            <input class="popup__input" type="email" placeholder="E-mail: ">
+            <input class="popup__input" type="tel" placeholder="Телефон: *" required>
+            <textarea class="popup__input popup__input--mod" type="text" placeholder="Комментарий: " name="booking__comments" id="comments" rows="10"></textarea>
+          </form>
+          <div class="popup__button-box">
+            <div class="popup__button-link">
+              <a class="popup__push" href="#popup-push">оптравить</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-push" class="popup">
+      <a href="#" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content popup__content--mod">
+          <a href="#popup-end" class="popup__close"></a>
+          <div class="popup__title popup__title--mod">Заявка принята! <br><br>Спасибо за обращение.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Попап форма бронирования -- end  -->
 
 
     <section class="roominfo">

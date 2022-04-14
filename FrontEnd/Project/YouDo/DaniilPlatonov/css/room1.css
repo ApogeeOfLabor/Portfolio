@@ -2,3 +2,11 @@
   content: ">";
   margin-right: 1.1rem;
 }
+
+.popup__content--mod{
+  height: 65rem;
+}
+
+.popup__input--mod{
+  min-height: 8rem;
+}
