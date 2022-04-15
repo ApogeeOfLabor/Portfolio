@@ -26,7 +26,7 @@
     align-items: center;
 
     width: 100%;
-    height: 120px;
+    height: 8.57rem;
 }
 
 .logo {
@@ -292,34 +292,36 @@ input[name="rb"] {
   align-items: center;
 
   height: 1rem;
+  transition: all 0.3s ease;
 }
 
-.popup__button-link{
-  margin: 0px 160px;
-  padding: 10px 25px;
 
+.popup__push{
+  display: block;
+  
+  padding: 10px 25px;
+  margin: 0px 160px;
+  
   background-color: #ededed;
   border: 3px solid #b7b7b7;
   border-radius: 3px;
   color: #535252;
-
+  
   cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.popup__button-link:hover {
-  background-color: #969696;
-  border: 3px solid #969696;
-  border-radius: 3px;
-  color: #fff;
-}
-
-.popup__push{
+  
   text-transform: uppercase;
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: inherit;
+  
+  transition: all 0.30s ease 0s;
+}
+
+.popup__push:hover {
+  background-color: #969696;
+  border: 3px solid #969696;
+  border-radius: 3px;
+  color: #fff;
 }
 
 .link__box{
@@ -459,7 +461,8 @@ input[name="rb"] {
 
 .res{
   position: absolute;
-  bottom: 78px;
+  bottom: 5.9rem;
+
 }
 
 .phone--res{
@@ -473,7 +476,7 @@ input[name="rb"] {
 }
 
 .social__list-item--mod {
-  margin-right: 10px;
+  margin-right: 0.7rem;
 }
 
 .footer__inner{
@@ -497,7 +500,7 @@ input[name="rb"] {
 
   width: 70vw;
 
-  margin-left: 100px;
+  margin-left: 8.9rem;
 }
 
 .footer_items{
@@ -509,9 +512,9 @@ input[name="rb"] {
   font-size: 1.1rem;
 
   display: block;
-  min-height: 10px;
+  min-height: 0.7rem;
 
-  margin-bottom: 25px;
+  margin-bottom: 1.8rem;
 }
 
 .footer__link--mod{
@@ -520,12 +523,12 @@ input[name="rb"] {
 }
 
 .yandex__wighet{
-  width: 170px;
-  height: 100px;
+  width: 12.2rem;
+  height: 7rem;
 
   background-color: #e5e5e5;
   text-align: center;
 
-  margin-left: 50px;
-  padding-top: 40px;
+  margin-left: 3.5rem;
+  padding-top: 2.9rem;
 }
