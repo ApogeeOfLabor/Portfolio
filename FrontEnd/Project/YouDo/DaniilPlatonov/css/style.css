@@ -37,12 +37,12 @@
 .header__list {
     display: flex;
     font-family: inherit;
-    font-size: 1.08rem;
+    font-size: 1.30rem;
 }
 
 .header__listitems {
     text-transform: capitalize;
-    margin-right: 36px;
+    margin-right: 2.57rem;
 }
 
 .header__link{
@@ -68,7 +68,7 @@
 }
 .phone {
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding-bottom: 1.2rem;
 }
 .social__list {
@@ -450,10 +450,10 @@ input[name="rb"] {
   margin-bottom: 2.3rem;
 }
 
-/* FOOTER */
+/* --------------------------      FOOTER      --------------------------- */
 
 .footer {
-  padding: 3rem;
+  padding: 3rem 3rem 0 3rem;
   width: 100%;
 
   position: relative;
@@ -461,7 +461,7 @@ input[name="rb"] {
 
 .res{
   position: absolute;
-  bottom: 5.9rem;
+  bottom: 3rem;
 
 }
 

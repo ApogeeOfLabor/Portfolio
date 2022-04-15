@@ -1,0 +1,47 @@
+.photographer {
+  width: 100%;
+  height: 58vh;
+}
+
+.photographer__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 80px;
+}
+
+.photographer__photo {
+  width: 48%;
+  height: 450px;
+}
+
+.photographer__content {
+  width: 52%;
+  line-height: 35px;
+}
+
+.photographer__text {
+  font-size: 1.42rem;
+
+  font-family: 'Inter', sans-serif;
+}
+
+.photographer__link {
+  font-family: 'Inter', sans-serif;
+  color: #848383;
+
+  padding-left: 20px;
+}
+
+
+.photographer__infotext {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.40rem;
+}
+
+.textIdent {
+  padding-left: 25px;
+  font-size: 1.1rem;
+}
