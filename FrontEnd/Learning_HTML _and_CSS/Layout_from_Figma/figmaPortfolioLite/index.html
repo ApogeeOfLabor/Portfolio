@@ -13,7 +13,7 @@
       <div class="container">
           <nav class="header__nav">
               <a class="header__link" href="">home</a>
-              <a class="header__link" href="">about me</a>
+              <a class="header__link" href="#about_me">about me</a>
               <a class="header__link" href="">skills</a>
               <a class="header__link" href="">portfolio</a>
               <a class="header__link" href="">contacts</a>
@@ -27,8 +27,8 @@
                   <div class="header__content-text">UX | UI designer<br> 24 years old, Minsk</div>
                   <div class="header__content-lang">
                     <div class="header__content-langbox">
-                      <a class="header__content-lang--ru">ru</a>
-                      <a class="header__content-lang--eng">eng</a>
+                      <a class="header__content-lang--ru header__content-lang--active">ru</a>
+                      <a class="header__content-lang--eng header__content-lang--active">eng</a>
                     </div>
                   </div>
               </div>
@@ -40,7 +40,7 @@
     <section>
       <div class="about">
         <div class="container">
-          <div class="title">about me</div>
+          <a class="header__link title" href="#about_me" tabindex="1" id="about_me">about me</a>
           <div class="about__textbox">
             <p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk. <br>
             I'm interested in design and everything connected with it.</p>
@@ -56,13 +56,12 @@
     <section>
       <div class="skills">
         <div class="container">
-          <div class="title">skills</div>
+          <a class="header__link title" href="#" tabindex="2" id="skills">skills</a>
           <div class="skills__text">I work in such programs as</div>
           <div class="skills__items">
             <div class="skills__item">
               <a href="#" class="skills__item-link"><img class="skills__img" src="icons/PS.svg" alt="Photoshop"></a>
-              <div class="skills__name">Adobe
-              Photoshop</div>
+              <div class="skills__name">Adobe Photoshop</div>
               <div class="skills__ratio">
                 <a class="skills__ratio-link" href="#"><img class="skills__ratio-img" src="icons/Star_black.png" alt=""></a>
                 <a class="skills__ratio-link" href="#"><img class="skills__ratio-img" src="icons/Star_black.png" alt=""></a>
@@ -72,10 +71,8 @@
               </div>
             </div>
             <div class="skills__item">
-              <a class="skills__item-link" href=""><img class="skills__img" src="icons/AI.svg" alt="Adobe 
-              Illustrator"></a>
-              <div class="skills__name">Adobe
-              Illustrator</div>
+              <a class="skills__item-link" href=""><img class="skills__img" src="icons/AI.svg" alt="Adobe Illustrator"></a>
+              <div class="skills__name">Adobe Illustrator</div>
               <div class="skills__ratio">
                 <a class="skills__ratio-link" href="#"><img class="skills__ratio-img" src="icons/Star_black.png" alt=""></a>
                 <a class="skills__ratio-link" href="#"><img class="skills__ratio-img" src="icons/Star_black.png" alt=""></a>
@@ -85,10 +82,8 @@
               </div>
             </div>
             <div class="skills__item">
-              <a class="skills__item-link" href=""><img class="skills__img" src="icons/AE.svg" alt="Adobe 
-              After Effects"></a>
-              <div class="skills__name">Adobe
-              After Effects</div>
+              <a class="skills__item-link" href=""><img class="skills__img" src="icons/AE.svg" alt="Adobe After Effects"></a>
+              <div class="skills__name">Adobe After Effects</div>
               <div class="skills__ratio">
                 <a class="skills__ratio-link" href="#"><img class="skills__ratio-img" src="icons/Star_black.png" alt=""></a>
                 <a class="skills__ratio-link" href="#"><img class="skills__ratio-img" src="icons/Star_black.png" alt=""></a>
@@ -116,25 +111,19 @@
     <section>
       <div class="portfolio">
         <div class="container">
-          <div class="title">portfolio</div>
+          <a class="header__link title" href="#portfolio" tabindex="3" id="portfolio">portfolio</a>
           <div class="portfolio__items">
             <div class="portfolio__item">
               <a class="portfolio__link" href="#"><img src="img/online_fashion_store.svg" alt="Online fashion store" class="portfolio__img"></a>
-              <p class="portfolio__text">
-                Online fashion store - Homepage
-              </p>
+              <p class="portfolio__text">Online fashion store - Homepage</p>
             </div>
             <div class="portfolio__item">
               <a class="portfolio__link" href="#"><img src="img/reebok_store.svg" alt="Reebok Store - Concept" class="portfolio__img"></a>
-              <p class="portfolio__text">
-                Reebok Store - Concept
-              </p>
+              <p class="portfolio__text">Reebok Store - Concept</p>
             </div>
             <div class="portfolio__item">
               <a class="portfolio__link" href="#"><img src="img/Braun_Landing_Page.svg" alt="Braun Landing Page - Concept" class="portfolio__img"></a>
-              <p class="portfolio__text">
-                Braun Landing Page - Concept
-              </p>
+              <p class="portfolio__text">Braun Landing Page - Concept</p>
             </div>
           </div>
         </div>
@@ -145,7 +134,7 @@
       <div class="contacts">
         <div class="container">
           <div class="contacts__inner">
-            <div class="title">Contacts</div>
+            <a class="header__link title" href="#contacts" tabindex="4" id="contacts">Contacts</a>
             <div class="contacts__text">Want to know more or just chat? <br>
               You are welcome!</div>
             <input class="contacts__button" type="button" value="Send message">

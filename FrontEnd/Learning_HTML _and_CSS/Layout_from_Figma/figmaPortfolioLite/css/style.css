@@ -29,8 +29,17 @@ body{
   font-family: 'Gilroy-Bold';
   color: #828282;
 
+  border-bottom: 3px solid rgb(255, 255, 255);
+
   text-transform: capitalize;
   text-decoration: none;
+
+  transition: all 0.4s ease 0s;
+}
+nav .header__link:hover{
+  color: #212121;
+  border-bottom: 3px solid #212121;
+
 }
 
 .header__content-inner{
@@ -73,11 +82,37 @@ body{
 
 .header__content-lang--ru{
   color: #828282;
+  position: relative;
 }
 
 .header__content-lang--eng{
+  color: #828282;
   margin-left: 10px;
   position: relative;
+}
+
+.header__content-lang--active{
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.header__content-lang--active:hover {
+  color: #090909;
+  cursor: pointer;
+}
+
+.header__content-lang--active::before{
+  content: "";
+  border-left: 3px solid rgba(255, 255, 255, 0.641);
+  padding-left: 2px;
+  height: 13px;
+  
+  position: absolute;
+  left: -6px;
+  top: 4px;
+  transition: all 0.4s ease;
+}
+.header__content-lang--active:hover::before {
+  border-left: 3px solid rgba(29, 29, 29, 0.641);
 }
 
 
@@ -100,12 +135,14 @@ body{
 }
 
 .title{
+  display: block;
   font-family: 'Gilroy-Bold';
   font-weight: 600;
   font-size: 34px;
   line-height: 42px;
   text-align: center;
   text-transform: capitalize;
+  color: inherit;
 }
 
 .about__textbox{
