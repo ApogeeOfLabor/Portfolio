@@ -1,0 +1,236 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* Navigation Menu CSS Start */
+.nav{
+    position: fixed;
+    padding: 20px 0;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.4s ease;
+}
+.sticky{
+    padding: 15px 0;
+    background: #3769f4;
+    box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, .35);
+}
+.sticky .logo,
+.sticky .header__link,
+.sticky .social__link {
+    color: #fff;
+}
+.sticky .logo:hover,
+.sticky .header__link:hover,
+.sticky .social__link:hover {
+    color: #0e2431;
+}
+.header__menu{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 40px;
+    font-weight: 500;
+    color: #3769f4;
+    letter-spacing: -5px;
+}
+.header__list {
+    display: flex;
+    justify-content: center;
+}
+.header__link {
+    padding: 10px 10px;
+
+    font-size: 22px;
+    font-weight: 500;
+    color: #32373a;
+
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.header__link:hover{
+    color: #3769f4;
+}
+.social{
+    display: inline-flex;
+    flex-flow: row nowrap;
+}
+.social__link {
+    font-size: 20px;
+    color: #3769f4;
+
+    margin: 0 8px;
+}
+/* Navigation Menu CSS End */
+
+
+/* Navigation Mobile Menu Button Start */
+.header__close-btn,
+.header__menu-btn {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+
+    right: 20px;
+    top: 17px;
+
+    display: none;
+}
+.header__menu-btn {
+    color: #4070f4;
+}
+/* Navigation Mobile Menu Button End */
+
+
+/* HOME Section CSS Start */
+.home {
+    /* width: 100%; */
+    height: 100vh;
+
+    font-family: "Ubuntu", sans-serif;
+    color: #0e2431;
+    font-weight: 500;
+}
+.home__content{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.home__title{
+    margin-left: -2px;
+    font-size: 35px;
+}
+.home__name{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home__profession{
+    font-size: 40px;
+    margin: 9px 0;
+}
+.home__locate {
+    font-size: 23px;
+    margin: 5px 0;
+}
+.btn{
+    outline: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 8px 16px;
+    background: #3769f4;
+    margin-top: 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+.btn:hover{
+    color: #3769f4;
+    background: #fff;
+    border-color: #3769f4;
+    cursor: pointer;
+}
+/* HOME Section CSS End */
+
+
+
+/* Responsive Media Query CSS */
+
+/* for Menu Start */
+@media(max-width: 1000px){
+    .logo {
+        font-size: 32px;
+        letter-spacing: -6px;
+    }
+    .header__link {
+        font-size: 18px;
+    }
+    .home__name {
+        font-size: 55px;
+    }
+    
+    .home__profession {
+        font-size: 35px;
+    }
+}
+@media(max-width: 750px) {
+    .header__list {
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: center;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        
+        width: 100%;
+        max-width: 400px;
+        height: 100vh;
+        background: #0e2431;
+        padding-top: 60px;
+
+        transition: all 0.5s ease;
+    }
+    .header__list--active{
+        left: 0;
+    }
+    .header__link {
+        display: block;
+        font-size: 24px;
+        color: #fff;
+        padding: 5px 0;
+        cursor: pointer;
+    }
+    .social__link {
+        display: none;
+    }
+    .header__close-btn,
+    .header__menu-btn{
+        display: block;
+    }
+/* for Menu End */
+
+
+
+/* for HOME Start */
+    .home__title {
+        font-size: 25px;
+    }
+    
+    .home__name {
+        font-size: 45px;
+    }
+    
+    .home__profession {
+        font-size: 25px;
+    }
+    
+    .home__locate {
+        font-size: 15px;
+    }
+    
+    .btn {
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+/* for HOME End */
+
+
+}
+
+
+
+
+/* Responsive Media Query CSS */
+
+
+
