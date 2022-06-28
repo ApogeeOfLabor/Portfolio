@@ -1,0 +1,97 @@
+.interiorDecorating--mod{
+    margin: 30px 0 0 0;
+}
+
+.interiorDecorating__inner--mod{
+  padding: 0 0 10px;
+}
+
+/* REGULATION */
+
+.section__text--mod{
+  padding-bottom: 10px;
+}
+
+.button__link{
+  padding: 10px 40px;
+  background-color: #e5e5e5;
+  border: 2px solid #8f8e8e;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+
+.popup__title--mod{
+  padding: 90px 0;
+}
+
+.popup__content--mod {
+  transition: all 0.65s ease 0.15s;
+  opacity: 0;
+  transform: translate(0, 60%) ;
+}
+
+
+
+/*    -------------     ROOM1     PAGE     -------------------------    */
+
+.bg {
+  background-color: #e5e5e5;
+
+  width: 100%;
+  padding: 40px 0 10px 0;
+}
+
+/* ROOMBOX */
+
+.roombox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.roombox__title{
+  font-size: 2rem;
+  font-family: 'Inter', sans-serif;
+  
+  text-align: center;
+  padding: 25px 0 10px 0;
+}
+
+.roombox__images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 1100px;
+
+  margin: 30px auto;
+
+}
+
+.roombox__img{
+  padding: 5px;
+
+  height: 27rem;
+  width: 100%;
+}
+
+.roominfo{
+  background-color: #e5e5e5;
+
+  margin-top: 15px;
+}
+
+.roominfo__text{
+  padding: 25px 0;
+
+  font-size: 1.1rem;
+  line-height: 22px;
+}
+
+
+
+/*    -------------     ROOM1     PAGE     END      -------------------------    */

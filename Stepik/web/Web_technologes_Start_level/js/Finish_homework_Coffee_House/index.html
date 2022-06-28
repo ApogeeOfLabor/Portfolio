@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
   <title>Coffe House</title>
 </head>
 <body>
@@ -12,58 +14,63 @@
       <h1 class="header__title">coffee house</h1>
       <div class="header__content">
         <div class="header__userdata">
-          <input class="firstname" type="text">
-          <input class="lastname" type="text">
+          <input class="firstname" type="text" placeholder="Введите имя: ">
+          <input class="lastname" type="text"  placeholder="Введите фамилию: ">
         </div>
         <div class="header__menu">
           <div class="inner__menu">
             <div class="menu__items">
-              <input class="menu__item" id="espresso" type="text" name="coffee">
-              <lable for="espresso">эспрессо 80р</lable>
-              <div class="menu__count"></div>
+              <input class="menu__item" id="espresso" name="product" type="checkbox" name="coffee" value="80">
+              <lable class="menu__item-text" for="espresso">эспрессо 80р</lable>
+              <input class="menu__count" name="count" maxlength="1" type="number" value="0">
             </div>
             <div class="menu__items">
-              <input class="menu__item" id="americano" type="text">
-              <label for="americano">американо 110р</label>
-              <div class="menu__count"></div>
+              <input class="menu__item" id="americano" name="product" type="checkbox" value="110">
+              <label class="menu__item-text" for="americano">американо 110р</label>
+              <input class="menu__count" name="count" maxlength="1" type="number" value="0">
             </div>
             <div class="menu__items">
-              <input class="menu__item" id="latte" type="text">
-              <label for="latte">Латте 120р</label>
-              <div class="menu__count"></div>
+              <input class="menu__item" id="latte" name="product" type="checkbox" value="120">
+              <label class="menu__item-text" for="latte">Латте 120р</label>
+              <input class="menu__count" name="count" maxlength="1" type="number" value="0">
             </div>
             <div class="menu__items">
-              <input class="menu__item" id="capuchino" type="text">
-              <label for="capuchino">капучино 90р</label>
-              <div class="menu__count"></div>
+              <input class="menu__item" id="capuchino" name="product" type="checkbox" value="90">
+              <label class="menu__item-text" for="capuchino">капучино 90р</label>
+              <input class="menu__count" name="count" maxlength="1" type="number" value="0">
             </div>
           </div>
           <div class="inner__menu">
             <div class="menu__items">
-              <input class="menu__item" id="choco_cupcake" type="text">
-              <lable for="choco_cupcake">шоколадный кекс 80р</lable>
-              <div class="menu__count"></div>
+              <input class="menu__item" id="choco_cupcake" name="product" type="checkbox" value="80">
+              <lable class="menu__item-text" for="choco_cupcake">шоколадный кекс 80р</lable>
+              <input class="menu__count" name="count" maxlength="1" type="number" value="0">
             </div>
             <div class="menu__items">
-              <input class="menu__item" id="blueberrie_cupcake" type="text">
-              <label for="blueberrie_cupcake">черничный кекс 90р</label>
-              <div class="menu__count"></div>
+              <input class="menu__item" id="blueberrie_cupcake" name="product" type="checkbox" value="90">
+              <label class="menu__item-text" for="blueberrie_cupcake">черничный кекс 90р</label>
+              <input class="menu__count" name="count" maxlength="1" type="number" value="0">
             </div>
             <div class="menu__items">
-              <input class="menu__item" id="apple_cupcake" type="text">
-              <label for="apple_cupcake">яблочный тарт 100р</label>
-              <div class="menu__count"></div>
+              <input class="menu__item" id="apple_cupcake" name="product" type="checkbox" value="100">
+              <label class="menu__item-text" for="apple_cupcake">яблочный тарт 100р</label>
+              <input class="menu__count" name="count" maxlength="1" type="number" value="0">
             </div>
           </div>
         </div>
 
-        <div class="result">
-          <p class="result__title">итого:</p>
-          <p class="result__text"></p>
+        <div class="resultbox">
+          <div class="result">
+            <p class="result__title">итого:</p>
+            <p class="result__text"></p>
+          </div>
+          <input type="button" class="header__submit" value="оформить заказ">
         </div>
-        <input type="button" class="header__submit" value="оформить заказ">
       </div>
     </div>
   </header>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

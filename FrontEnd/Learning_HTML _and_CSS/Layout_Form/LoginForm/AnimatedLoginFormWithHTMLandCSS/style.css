@@ -1,0 +1,168 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body{
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(to right, #99004D 0%, #ff0080 100%);
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(39, 39, 39, 0.89);
+
+  margin: 20px 0 10px 0;
+  position: relative;
+}
+.title::before{
+  content: "";
+  position: absolute;
+  width: 58px;
+  height: 4px;
+  bottom: -2px;
+  left: 3px;
+
+  border-radius: 5px;
+  background: linear-gradient(to right, #99004D 0%, #ff0080 100%);
+}
+
+.form__input-box {
+  width: 100%;
+  height: 45px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.form__input-item {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.underline::before{
+  position: absolute;
+  content: "";
+
+  height: 2px;
+  width: 100%;
+  background: #ccc;
+
+  left: 0;
+  bottom: 0;
+}
+.underline::after{
+  position: absolute;
+  content: "";
+  
+  left: 0;
+  bottom: 0;
+
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, #99004D 0%, #ff0080 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.45s ease;
+}
+.form__input-item:focus ~ .underline::after,
+.form__input-item:valid ~ .underline::after{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.button {
+  font-size: 17px;
+  color: #fff;
+  margin: 5px 0;
+
+  background: linear-gradient(to right, #99004D 0%, #ff0080 100%);
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+.button:hover{
+  letter-spacing: 1px;
+  background: linear-gradient(to left, #99004D 0%, #ff0080 100%);
+}
+
+.social-title {
+  text-align: center;
+  padding: 30px 40px 13px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(128, 128, 128);
+}
+
+.social__items {
+  margin-bottom: 35px;
+}
+
+.social__link {
+  display: block;
+  width: 50%;
+  height: 45px;
+
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+
+  padding-left: 15px;
+  line-height: 45px;
+}
+.social--mod {
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.fab {
+  width: 25px;
+}
+
+.social__vk {
+  background: linear-gradient(to right, #006ce7 0%, #6295cc 90%);
+  transition: all 0.9s ease;
+}
+.social__vk:hover {
+  background: linear-gradient(to left, #006ce7 0%, #6295cc 90%);
+}
+.social__yandex {
+  background: linear-gradient(to right, #ff0c00 0%, #ff554d 90%);
+}
+.social__yandex:hover {
+  background: linear-gradient(to left, #ff0c00 0%, #ff554d 90%);
+}
+.social__google {
+  background: linear-gradient(to right , #3c810f 0%, #ffe915 75%, #db4a39 100%);
+}
+.social__google:hover {
+  background: linear-gradient(to left, #3c810f 0%, #ffe915 75%, #db4a39 100%);
+}

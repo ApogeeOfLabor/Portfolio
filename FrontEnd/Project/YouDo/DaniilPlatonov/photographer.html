@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/freelancer_reset.css">
+  <link rel="stylesheet" href="css/regulation.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/rooms.css">
+  <link rel="stylesheet" href="css/photographer.css">
+  <title>ART Photo</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <nav class="nav">
+        <a class="header__link" href="index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+
+        <ul class="header__list">
+          <li class="header__listitems"><a class="header__link" href="index.html">главная</a></li>
+          <li class="header__listitems"><a class="header__link" href="rooms.html">залы</a></li>
+          <li class="header__listitems"><a class="header__link" href="services.html">услуги</a></li>
+          <li class="header__listitems"><a class="header__link" href="regulation.html">правила</a></li>
+          <li class="header__listitems"><a class="header__link" href="photographer.html">фотограф</a></li>
+          <li class="header__listitems"><a class="header__link" href="contacts.html">контакты</a></li>
+        </ul>
+
+        <a class="header__button" href="#popup">Заказать звонок</a>
+
+        <div class="header__contact">
+          <a class="phone" href="tel:+79459933399">+7(945)993-33-99</a>
+          <ul class="social__list">
+            <li class="social__list-item">
+              <a class="social__link" href="http://telegram.org">
+                <img class="social__img social__img--resize" src="./img/telegram.png" alt="telegram">
+              </a>
+            </li>
+            <li class="social__list-item">
+              <a class="social__link" href="http://instagram.com">
+                <img class="social__img" src="./img/instagram.png" alt="instagram">
+              </a>
+            </li>
+            <li class="social__list-item">
+              <a class="social__link" href="http://vk.com">
+                <img class="social__img" src="./img/vk.png" alt="vk">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div id="popup" class="popup">
+    <a href="#" class="popup__area"></a>
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#popup-end" class="popup__close"></a>
+        <div class="popup__title">Обратный звонок</div>
+        <form action="post" class="popup__form">
+          <input class="popup__input" type="text" placeholder="Введите имя: ">
+          <input class="popup__input" type="number" placeholder="+7 (977) 777 - 77 - 77">
+        </form>
+        <div class="popup__button-box">
+          <a class="popup__push" href="#popup-push">оптравить</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup-push" class="popup">
+    <a href="#" class="popup__area"></a>
+    <div class="popup__body">
+      <div class="popup__content popup__content--mod">
+        <a href="#popup-end" class="popup__close"></a>
+        <div class="popup__title popup__title--mod">Заявка принята! <br><br>Спасибо за обращение.</div>
+      </div>
+    </div>
+  </div>
+
+  <section class="breadcrumb">
+    <div class="container">
+      <ul class="breadcrumb__list">
+        <li class="breadcrumb__list-item"><a class="breadcrumb__link" href="index.html">Главная</a></li>
+        <li class="breadcrumb__list-item"><a class="breadcrumb__link" href="photographer.html">Фотограф</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="photographer">
+    <div class="container">
+      <div class="photographer__inner">
+        <img class="photographer__photo" src="img/18.svg" alt="photographer">
+        <div class="photographer__content">
+          <p class="photographer__text">Портфолио фотографа <a class="photographer__link" href="#">тут</a></p>
+          <div class="photographer__info">
+            <p class="photographer__infotext">Съемки с общей цветокоррекцией: <br> </p>
+            <p class="photographer__infotext">Индивидуальная съемка:<br></p>
+            <p class="photographer__infotext textIdent">1 час - 7000 руб.<br></p>
+            <p class="photographer__infotext textIdent">2 часа - 11000 руб.<br></p>
+            <p class="photographer__infotext textIdent">3 часа - 15000 руб.<br></p>
+            <p class="photographer__infotext">Семейная съемка:<br></p>
+            <p class="photographer__infotext textIdent">1 час - 9000 руб.<br></p>
+            <p class="photographer__infotext textIdent">2 часа - 12000 руб.<br></p>
+            <p class="photographer__infotext textIdent">3 часа - 17000 руб.<br></p>
+            <p class="photographer__infotext">Бизнес-портрет - 7000 руб. (1 час)<br></p>
+            <p class="photographer__infotext">В стоимость входит цветокоррекция всей съемки,<br></p>
+            <p class="photographer__infotext">техническая ретушь доплачивается отдельно: 1 фото - 600 руб.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer__inner">
+        <img class="logo res" src="./img/logo.png" alt="logo">
+
+        <div class="footer__content">
+          <p class="footer_items">
+            <a href="index.html" class="footer__link">Главная</a>
+            <a href="rooms.html" class="footer__link">Залы</a>
+          </p>
+          <p class="footer_items">
+            <a href="services.html" class="footer__link">Услуги</a>
+            <a href="photographer.html" class="footer__link">Фотограф</a>
+          </p>
+          <p class="footer_items">
+            <a href="regulation.html" class="footer__link">Правила</a>
+            <a href="contacts.html" class="footer__link">Контакты</a>
+          </p>
+          <p class="footer_items">
+            <a href="#" class="footer__link">Адрес: <br> ул. Академика Ягеля д.8</a>
+            <a href="#" class="footer__link">Метро: <br> Улица Академика Ягеля</a>
+          </p>
+
+          <div class="footer_items">
+            <a class="footer__link phone--res" href="tel:+79459933399">Телефон: <br> +7(945)993-33-99</a>
+            <div class="footer_inner-item footer__link">
+              <a href="#" class="footer__link--mod">Социальные сети: </a>
+              <ul class="social__list--mod">
+                <li class="social__list-item--mod">
+                  <a class="social__link" href="http://telegram.org">
+                    <img class="social__img social__img--resize" src="./img/telegram.png" alt="telegram">
+                  </a>
+                </li>
+                <li class="social__list-item--mod">
+                  <a class="social__link" href="http://instagram.com">
+                    <img class="social__img" src="./img/instagram.png" alt="instagram">
+                  </a>
+                </li>
+                <li class="social__list-item--mod">
+                  <a class="social__link" href="http://vk.com">
+                    <img class="social__img" src="./img/vk.png" alt="vk">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="yandex__wighet">YANDEX Wighet</div>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
