@@ -4,7 +4,7 @@ def get_time_interval(sec, templates):
         result.append(f"{sec // value} {key}" if sec // value else '')
         sec -= value * (sec // value)
 
-    return  result
+    return result
 
 
 if __name__ == '__main__':

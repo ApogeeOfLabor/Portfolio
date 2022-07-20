@@ -1,11 +1,11 @@
 def get_sum_numbers_multiples_of_seven(list_num):
+
     """ Сортировка чисел сумма цифр которых кратна семи """
 
-    return sum([number for number in list_num if sum([int(item) for item in list(str(number))]) % 7 == 0])
+    return sum([number for number in list_num if sum([int(item) for item in iter(str(number))]) % 7 == 0])
 
 
 if __name__ == '__main__':
-
     odd_numbers_list = [num ** 3 for num in range(1, 1000, 2)]
 
     #  section A:
@@ -19,4 +19,3 @@ if __name__ == '__main__':
     for index, value in enumerate(odd_numbers_list):
         odd_numbers_list[index] = value + 17
     print(f"result: {get_sum_numbers_multiples_of_seven(odd_numbers_list)}, id: {id(odd_numbers_list)}")
-    ''.split()
