@@ -1,10 +1,20 @@
-class TrafficLight:
-    __color__ = ['Красный', 'Желтый', 'Зеленый']
+from time import sleep
 
-    def __int__(self):
+class TrafficLight:
+    __color = ['красный', 'жёлтый', 'зелёный']
+
+    def __init__(self) -> None:
         pass
 
     def running(self):
-        pass
+        sleep_time = [7, 2, 5]
+        for i, value in enumerate(sleep_time):
+            print(TrafficLight.__color[i], end=' ')
+            for _ in range(value):
+                print('.', end=' ')
+                sleep(1)
+            print()
 
-
+if __name__ == '__main__':
+    first_child = TrafficLight()
+    first_child.running()
